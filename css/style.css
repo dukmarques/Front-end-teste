@@ -90,11 +90,11 @@ main .categories .content {
     padding: 20px;
     background: url(https://picsum.photos/id/152/1920/1080) center center;
     opacity: 0.9;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 main .categories #daily {
-    background: url(https://picsum.photos/id/2/1920/1080) center center;
+    background: url(https://picsum.photos/id/3/1920/1080) center center;
 }
 
 main .categories #togheter {
@@ -106,7 +106,7 @@ main .categories #analysis {
 }
 
 main .categories #pictures {
-    background: url(https://picsum.photos/id/184/1920/1080) center center;
+    background: url(https://picsum.photos/id/318/1920/1080) no-repeat center center;
 }
 
 main .categories .content h1 {
