@@ -63,6 +63,7 @@ main {
 }
 
 main .intro {
+    width: 100%;
     margin: 20px 0;
 }
 
@@ -119,8 +120,13 @@ main .categories .content p {
 }
 
 /*Plans*/
-.plans {
+.plans-section {
     background: rgb(242, 242, 242);
+}
+
+.plans {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .plans .intro {
@@ -165,7 +171,8 @@ main .categories .content p {
 
 .plans .prices .price p {
     padding: 5px;
-    font-size: 0.8rem;
+    width: 100%;
+    font-size: 0.6rem;
 }
 
 .plans .prices #price1 {
@@ -190,4 +197,87 @@ main .categories .content p {
 
 .plans .prices #price6 {
     width: 100%;
+}
+
+/*Breakpoints*/
+@media (min-width: 700px) {
+    /*Main*/
+    main .intro {
+        max-width: 900px;
+    }
+
+    main .categories {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 900px;
+    }
+
+    main .categories .content {
+        height: 300px;
+    }
+
+    main .categories #daily {
+        grid-column: span 2;
+    }
+    
+    main .categories #togheter {
+        grid-column: span 3;
+    }
+    
+    main .categories #analysis {
+        grid-column: span 2;
+    }
+    
+    /*Plans*/
+    .plans {
+        max-width: 900px;
+    }
+
+    .plans .prices {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    
+    .plans .prices .price {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .plans .prices .price .value {
+        width: 100%;
+    }
+
+    .plans .prices .price {
+        width: 100%!important;
+    }
+
+    .plans .prices .price .value h4 {
+        font-size: 0.8rem;
+    }
+
+    /*Prices*/
+    .plans .prices #price1 {
+        height: 170px;
+    }
+    
+    .plans .prices #price2 {
+        height: 190px;
+    }
+    
+    .plans .prices #price3 {
+        height: 210px;
+    }
+    
+    .plans .prices #price4 {
+        height: 230px;
+    }
+    
+    .plans .prices #price5 {
+        height: 250px;
+    }
+    
+    .plans .prices #price6 {
+        height: 270px;
+    }
 }
