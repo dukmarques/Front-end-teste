@@ -1,0 +1,51 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Header */
+header {
+    margin: 0 auto;
+    height: 300px;
+    text-align: center;
+    background: url(https://picsum.photos/1920/1080) center center;
+    background-size: cover;
+}
+
+header .logo {
+    padding: 20px;
+}
+
+header .logo img {
+    border-radius: 15px;
+}
+
+header .logo h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+header .content {
+    height: 100%;
+    width: 100%;
+}
+
+header .content h1 {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+header .content a {
+    padding: 10px 30px;
+    color: #121212;
+    background: #FFF;
+    font-weight: 700;
+}
