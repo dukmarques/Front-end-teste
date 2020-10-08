@@ -49,7 +49,7 @@ header .content a {
     padding: 10px 30px;
     color: #121212;
     background: #FFF;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 /*Main*/
@@ -71,7 +71,7 @@ main .intro h1 {
 }
 
 main .intro p {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 main .categories {
@@ -116,4 +116,78 @@ main .categories .content p {
     font-weight: bold;
     color: #FFF;
     opacity: 1 !important;
+}
+
+/*Plans*/
+.plans {
+    background: rgb(242, 242, 242);
+}
+
+.plans .intro {
+    margin: 20px;
+    padding: 10px;
+}
+
+.plans .intro h1 {
+    font-size: 1.5rem;
+}
+
+.plans .intro p {
+    font-weight: bold;
+}
+
+.plans .prices {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+}
+
+.plans .prices .price {
+    margin: 5px;
+    color: #FFF;
+    background: rgb(0, 125, 234);
+}
+
+.plans .prices .price .value {
+    background: rgb(0, 74, 142);
+}
+
+.plans .prices .price .value h3 {
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.plans .prices .price .value h4 {
+    padding: 5px;
+    padding: 5px;
+}
+
+.plans .prices .price p {
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.plans .prices #price1 {
+    width: 50%;
+}
+
+.plans .prices #price2 {
+    width: 60%;
+}
+
+.plans .prices #price3 {
+    width: 70%;
+}
+
+.plans .prices #price4 {
+    width: 80%;
+}
+
+.plans .prices #price5 {
+    width: 90%;
+}
+
+.plans .prices #price6 {
+    width: 100%;
 }
